@@ -23,7 +23,7 @@ readonly REPO_RAW="https://raw.githubusercontent.com/${INSTALLER_REPO}/main"
 # Expected SHA256 of setup.sh inside the private repo.
 # Update this value every time setup.sh changes.
 # Generate with: shasum -a 256 setup.sh
-readonly SETUP_SH_CHECKSUM="3058690b7c26d8213ca3d475abd6dfa60601c0030afb4112a65acd1d109f4242"
+readonly SETUP_SH_CHECKSUM="932339c63e13054f41bbadb937446999811fc11f4584abddd3bde5c3b83dbc49"
 
 # Minimum required files from the public installer repo
 readonly REQUIRED_FILES="install.sh install.sh.sig CHECKSUMS.sha256"
