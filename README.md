@@ -5,7 +5,7 @@
 ### Option 1: GitHub CLI (recommended)
 
 ```bash
-gh repo clone sys-ax/agent-deploy-install && bash agent-deploy-install/install.sh
+gh repo clone sys-ax/agent-deploy-install /tmp/agent-deploy-install && bash /tmp/agent-deploy-install/install.sh
 ```
 
 ### Option 2: curl
